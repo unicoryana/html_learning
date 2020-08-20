@@ -1,0 +1,93 @@
+body {
+	background: #333;
+	color: #cacaca;
+	font-family: arial;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+.container {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+/*====================================================*/
+	/*MAIN MENU STYLES*/
+/*====================================================*/
+
+nav #main-menu  {
+	max-width: 100%;
+	list-style: none;
+	padding: 0;
+}
+
+nav #main-menu li {
+	display: inline-block;
+	line-height: 45px;
+	border: 1px solid #cacaca;
+	margin-right: 5px;
+}
+
+nav #main-menu li a {
+	text-decoration: none;
+	color: #cacaca;
+	display: block;
+	padding: 0 25px;
+}
+
+
+#main-menu li a:hover, #main-menu li a:active {
+	color: #333;
+	background: #cacaca;
+}
+
+/*====================================================*/
+	/*FOOTER MENU STYLES*/
+/*====================================================*/
+
+nav #footer-menu  {
+	max-width: 100%;
+	list-style: none;
+	padding: 0;
+}
+
+nav #footer-menu li {
+	display: inline-block;
+	line-height: 45px;
+	margin-right: 5px;
+}
+
+nav #footer-menu li a {
+	color: #cacaca;
+	display: block;
+	text-decoration: none;
+	font-size: 0.8em;
+}
+
+nav #footer-menu li a::after {
+	content: ' | ';
+}
+
+#footer-menu li a:hover, #footer-menu li a:active {
+	text-decoration: underline;
+}
+
+#main {
+	max-width: 75%;
+	margin-right: 5%;
+}
+
+#sidebar {
+	width: 20%;
+}
